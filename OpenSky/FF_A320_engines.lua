@@ -1,9 +1,9 @@
-SR_Eng_1		= find_dataref("afm/sr/engine/burning_fuel")
+320_Eng_1		= find_dataref("sim/flightmodel/engine/ENGN_FF_")
 Xpl_Eng_1		= find_dataref("sim/flightmodel/engine/ENGN_running[0]")
 
 
 function engines()
-	if SR_Eng_1 > .90 then
+	if 320_Eng_1 > 0 then
 		Xpl_Eng_1 = 1
 	else
 		Xpl_Eng_1 = 0
