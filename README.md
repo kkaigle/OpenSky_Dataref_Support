@@ -4,7 +4,7 @@ Installation instructions:
 
 1. Download XLua from here: https://github.com/X-Plane/XLua 
 2. Place Xlua in X-Plane 12\Resources\plugins\
-3. Install the files included in this repository into xlua\scripts folder
+3. Place the **engines** folder included in this repository into **xlua\scripts** folder
 
 CREDIT to the developers involved and Laminar Research for providing this tool. https://github.com/X-Plane/XLua XLua XLua is a very simple Lua adapter plugin for X-Plane. It allows authors to create and modify commands and add create new datarefs for X-Plane aircraft.
 
