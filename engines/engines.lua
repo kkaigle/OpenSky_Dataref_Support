@@ -1,5 +1,5 @@
-Eng_1		= find_dataref("sim/flightmodel/engine/ENGN_FF_[0,1]")
-Xpl_Eng_1		= find_dataref("sim/flightmodel/engine/ENGN_running[0,1]")
+Eng_1		= find_dataref("sim/flightmodel/engine/ENGN_FF_[0]")
+Xpl_Eng_1		= find_dataref("sim/flightmodel/engine/ENGN_running[0]")
 
 
 function engines()
