@@ -13,3 +13,6 @@ XLua's functionality is in its core similar to Gizmo, SASL and FlyWithLua, but i
 XLua is developed internally by Laminar Research and is intended to help our internal art team, but anyone is free to use it, modify it, hack it, etc.; it is licensed under the MIT/X11 license and is thus Free and Open Source Software.
 
 XLua is not meant to be an "official" Lua plugin for X-Plane, and it definitely does not replace any of the existing Lua plugins, all of which have significantly more features than XLua itself.
+
+**KNOWN ISSUE: **
+**When using this plugin, with a plane that includes xLUA within "aircraft/plugins/", it could cause the aircraft plugin not to load. Example: The Zibo 738  uses xLUA within its plugins. Please deactivate or remove this xLUA plugin before using those planes. **
